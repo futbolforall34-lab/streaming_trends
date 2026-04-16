@@ -1,0 +1,32 @@
+# Git ignore for Movie Character Analysis
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.python-version
+/build/
+/dist/
+/*.egg-info/
+
+# PyCharm / VS Code / IDEs
+.idea/
+.vscode/
+.DS_Store
+
+# Data (Ignore large data files, only commit sample or descriptions)
+data/raw/
+data/interim/*.parquet
+data/processed/*.parquet
+*.pickle
+*.pkl
+
+# Environment
+.env
+.venv/
+venv/
+env/
